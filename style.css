@@ -1,0 +1,158 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+.main {
+  display: flex;
+  gap: 10px;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.first {
+  width: 40px;
+  height: 400px;
+  background-color: blue;
+  border-radius: 20px;
+  border: 2px solid white;
+  transition: all ease 0.9s;
+  background-image: url(./fourth\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.second {
+  width: 40px;
+  height: 400px;
+  background-color: yellow;
+  border-radius: 20px;
+  border: 2px solid white;
+  transition: all ease 0.9s;
+  background-image: url(./istockphoto-987624132-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.third {
+  width: 40px;
+  height: 400px;
+  background-color: red;
+  border-radius: 20px;
+  border: 2px solid white;
+  transition: all ease 0.9s;
+  background-image: url(./second\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.four {
+  width: 40px;
+  height: 400px;
+  background-color: green;
+  border-radius: 20px;
+  border: 2px solid white;
+  transition: all ease 0.9s;
+  background-image: url(./third\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.first:hover {
+  width: 85%;
+  border: 2px solid yellow;
+}
+.second:hover {
+  width: 85%;
+  border: 2px solid yellow;
+}
+.third:hover {
+  width: 85%;
+  border: 2px solid yellow;
+}
+.four:hover {
+  width: 85%;
+  border: 2px solid yellow;
+}
+@media only screen and (max-width: 600px) {
+  /* body {
+    background-color: red;
+  } */
+  .first {
+    display: none;
+  }
+  .second {
+    display: none;
+  }
+  .third {
+    display: none;
+  }
+  .four {
+    display: none;
+  }
+  .firstmob {
+    border: 2px solid white;
+    height: 50px;
+    width: 90%;
+    background-color: aqua;
+    border-radius: 30px;
+    background-image: url(./fourth\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease 0.9s;
+    background-position: center center;
+  }
+  .secondmob {
+    border: 2px solid white;
+    height: 50px;
+    width: 90%;
+    background-color: yellow;
+    border-radius: 30px;
+    background-image: url(./second\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease 0.9s;
+    background-position: center center;
+  }
+  .thirdmob {
+    border: 2px solid white;
+    height: 50px;
+    width: 90%;
+    background-color: red;
+    border-radius: 30px;
+    background-image: url(./istockphoto-987624132-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease 0.9s;
+    background-position: center center;
+  }
+  .fourmob {
+    border: 2px solid white;
+    height: 50px;
+    width: 90%;
+    background-color: blue;
+    border-radius: 30px;
+    background-image: url(./third\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease 0.9s;
+    background-position: center center;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+    padding-left: 0;
+  }
+  .firstmob:hover {
+    height: 65%;
+  }
+  .secondmob:hover {
+    height: 65%;
+  }
+  .thirdmob:hover {
+    height: 65%;
+  }
+  .fourmob:hover {
+    height: 65%;
+  }
+}
